@@ -1,7 +1,7 @@
 import { Logging } from './../../services/logging.service';
 import { ErrorHandlingService } from '../../services/error-handling.service';
 import { SuccessResponseModel } from '../../models/successresponse.models';
-import { dataAccessAssets } from '../../dataAccess/Assets.dataAccess';
+// import { dataAccessAssets } from '../../dataAccess/Assets.dataAccess';
 import Assets from '../../models/assets.models';
 
 
@@ -11,7 +11,7 @@ const vConfig = require('../../config/config.json')[vEnv];
 
 
 var mongoose = require('mongoose');
-const assets = new dataAccessAssets;
+// const assets = new dataAccessAssets;
 
 export interface AppControllerInterface{
 }
