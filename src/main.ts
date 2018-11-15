@@ -19,7 +19,7 @@ var multipartMiddleware = multipart({ uploadDir: path.join('./img-temp-dir')});
 
 var app = express();
 var router = express.Router();
-var port: number = process.env.port || config.port || 4000; //configuration of port
+var port: number = process.env.PORT || config.port || 4000; //configuration of port
 
 let whiteList = (origin:string) => {
     var data = config.whitelist_domain; //whitelist
