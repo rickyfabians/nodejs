@@ -2,8 +2,6 @@ import { Routing } from './route';
 
 import { Logging } from './services/logging.service';
 
-import { SequelizeService } from './services/sequelize.service';
-
 declare var require:any;
 
 var express = require('express');

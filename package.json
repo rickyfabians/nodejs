@@ -6,7 +6,8 @@
   "scripts": {
     "compile": "tsc && node src/main.js",
     "start": "nodemon -e ts,json  --exec \"npm run compile\"",
-    "build": "webpack --config config/webpack.prod.js --progress --profile --bail"
+    "build": "webpack --config config/webpack.prod.js --progress --profile --bail",
+    "deploy": " node src/main.js"
   },
   "dependencies": {
     "async": "^2.6.1",
